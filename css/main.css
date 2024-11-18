@@ -1,0 +1,180 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.wrapper{
+    width:1400px;
+    height:0 auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+  
+    gap:20px;
+}
+.card{
+    width:450px;
+  
+    height:auto;
+    padding:10px;
+    border: 2px solid red;
+}
+.card img{
+    width:100%;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transform:translateY(-140%);
+    transition:0.5s easy-in-out;
+}
+.popup{
+    width:1500px;
+    height:800px;
+    transition:0.5s easy-in;
+    overflow:hidden;
+    padding:20px;
+    color:black;
+    font-size:19px;
+    text-align:justify;
+    overflow-y:scroll;
+    border: 2px solid white;
+ background-color:wheat;
+
+}
+.close{
+    position:fixed ;
+    top:10px;
+    right:10px;
+    font-size:20px;
+    cursor:pointer;
+}
+.block {
+display:flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+gap: 20px;
+}
+.block h2{
+width: 900px;
+}
+.block img{
+    width: 390px;
+    height: 0 auto;
+}
+
+.blocky{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.blocky img{
+    width: 490px;
+    height: 0 auto;
+}
+.blocky p{
+    width: 1000px;
+}
+
+
+
+.back{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.fon{
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.wep{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+.wood{
+    margin-top: 20px;
+    width: 960px;
+    margin-left: 40px;
+   
+}
+.code{
+    text-align: center;
+    width: 1000px;
+}
+.cod{
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+  margin-left: 20px;
+    gap: 15px;
+}
+.cod a{
+    padding: 5px 10px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    width: 280px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+.cod li{
+    text-decoration: wavy;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+   margin-top: 10px;
+    gap: 10px;
+}
+.down h6{
+    margin-left: 10px;
+}
+.down span{
+    background-color: darkgrey;
+    width: 270px;
+    margin-left: 5px;
+}
+.down span img{
+    margin-left: 85%;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
